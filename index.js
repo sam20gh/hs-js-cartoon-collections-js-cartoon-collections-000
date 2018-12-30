@@ -50,7 +50,7 @@ function dwarfRollCall(dwarves) {
   for (var i = 0 ; i < dwarves.length; i++){
     name.push((i + 1) + ". " + dwarves[i] + " ");
   }
-  return name.join("");
+  return name;
   
 }
 function summonCaptainPlanet(planeteerCalls){
