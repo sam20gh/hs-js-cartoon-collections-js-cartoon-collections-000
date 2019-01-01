@@ -72,7 +72,7 @@ function longPlaneteerCalls(words){
 }
 
 function findTheCheese(foods){
-  var cheese = ["CHEDDAR", "gouda", "blue cheese"];
+  var cheese = ["CHeDDAR", "gouda", "blue cheese"];
   for( var i = 0; i < foods.length; i++){
     for( var c = 0; c < cheese.length; c++){
       if ( foods[i].toLowerCase() === cheese[c].toLowerCase()) {
